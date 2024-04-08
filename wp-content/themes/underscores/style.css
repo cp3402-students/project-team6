@@ -544,43 +544,35 @@ object {
 
 #primary {
 	flex-grow: 1;
-	padding-right: 150px;
+	padding-right: 250px;
 }
 
 #sticky-sidebar {
-	width: 350px;
+	height: 50vh;
+	width: 250px;
 	padding-left: 20px;
 	position: -webkit-sticky; /* For Safari */
 	position: sticky;
-	top: 50px;
-	height: 100vh;
 	overflow-y: auto; /* Scrollable sidebar if content is longer than the screen */
+	top: 10px;
 }
 
-#sticky-sidebar .widget-area .search-form,
-#sticky-sidebar .widget-area .search-form input[type="search"],
-#sticky-sidebar .widget-area .search-form input[type="submit"] {
-	width: 100%; /* Ensures elements fit the container's width */
-	box-sizing: border-box;
+#sticky-sidebar .widget button {
+	background-color: rosybrown;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+	border-radius: 5px; /* Rounded corners for the button */
 }
 
-#sticky-sidebar .widget-area .search-form input[type="search"] {
-	padding: 8px; /* Adjusts padding for the search input for aesthetics */
-	margin-bottom: 10px; /* Adds some space below the search input */
+#sticky-sidebar .widget button:hover {
+	background-color: saddlebrown; /* Button background color on hover */
 }
-
-#sticky-sidebar .widget-area .search-form input[type="submit"] {
-	padding: 8px 16px; /* Adjusts padding for the submit button */
-	background-color: #007bff;
-	color: white; /* Text color for the submit button */
-	border: none; /* Removes the border */
-	cursor: pointer; /* Changes the cursor to indicate the element is clickable */
-}
-
-
-
-
-
 
 
 .site-footer {
