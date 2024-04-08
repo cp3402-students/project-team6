@@ -23,6 +23,7 @@ __Plugin Details__
 ### Updating the Site
 __Add a New Page__
 Write how to add page here
+
 __Add a New Post__
 Write how to add post here
 
