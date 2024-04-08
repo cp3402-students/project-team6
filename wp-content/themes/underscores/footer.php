@@ -12,3 +12,4 @@
         </div>
     </div><!-- .footer-widgets -->
 </footer><!-- #colophon -->
+<?php wp_footer(); ?>
