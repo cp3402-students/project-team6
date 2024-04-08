@@ -18,10 +18,10 @@ is used to assist with continue development.
 Discord is a widely used communication application, our team already has some experience using this service. The 
 benefits that discord includes is:
 - Ease of use with setup
-- both voice and written communications
+- Both voice and written communications
 - Creation of multiple voice and text channels for each server
 - File and link sharing
-- easily acessible, can be used on PC, Phones, tablets, etc.
+- Easily acessible, can be used on PC, Phones, tablets, etc.
 To setup an account, any email can be used
 
 ## Local Environment and IDE - Docker and PHPStorm
