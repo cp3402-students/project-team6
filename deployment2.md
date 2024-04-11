@@ -9,5 +9,19 @@ This document outlines the workflow for developing and deploying theme updates f
     - Assign cards to developers and track progress within Trello.
     - Utilize communication tools (Discord/Slack) for discussions related to tasks.
 
+### Local Development with Docker
 
+1. **Start the Local Development Environment**
 
+     - Do a quick overview of [Docker-Compose](https://docs.docker.com/compose) 
+    - When you are ready to dive in and install docker and docker-compose. 
+Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/) to setup your own local environment. Use the provided `docker-compose.yml` from the repository.
+
+    - Create Folder for the project and open it to your IDE we used [PhpStom](https://www.jetbrains.com/phpstorm/download/#section=windows)
+
+    - Download `docker-compose.yml` from [CP3402/project-team6](https://github.com/cp3402-students/project-team6/blob/main/docker-compose.yml), save it from the project folder.
+
+    - Run `docker-compose up -d` to start the development environment with WordPress and database.
+
+    - Access your local WordPress site at `http://localhost:8080`.
+    
