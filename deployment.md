@@ -10,9 +10,7 @@
 * Production - `Amazon Web Services - Lightsail`
 
 ## CMS - Wordpress
-WordPress offers a user-friendly interface, making content creation and management a breeze for our team.  This flexibility empowers us to streamline website updates and maintain a site that aligns perfectly with our brand identity.
-
-The extensive library of plugins grants access to a vast array of features, allowing us to tailor the website's functionality to our specific needs.  Additionally, the supportive and active WordPress community provides valuable resources to ensure a smooth development process.
+WordPress excels at allowing users, even those without coding experience, to easily create, edit, and publish content on their website. This includes text, images, videos, and other media.  This user-friendly approach empowers you to maintain and update your site without relying on a developer for every change.
 
 ## Project Management - Trello
 Trello is a web-based, kanban-style, list-making application
