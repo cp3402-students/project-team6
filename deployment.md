@@ -40,3 +40,8 @@ their own branch, which was then reviewed by another developer before being merg
 appropriate addition.
 
 ## Setup - Local Enviroment
+
+### Setting up Docker
+1. Do a quick overview of [Docker-Compose](https://docs.docker.com/compose) 
+2. When you are ready to dive in and install docker and docker-compose. 
+Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/) to setup your own local environment.
