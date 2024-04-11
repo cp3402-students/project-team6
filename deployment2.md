@@ -25,3 +25,9 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
 
     - Access your local WordPress site at `http://localhost:8080`.
     
+2. **Clone the Repository**
+
+    - Ensure you have [Git](https://git-scm.com/downloads) installed.
+    - Clone the project repository from Github using
+        - `git clone https://github.com/cp3402-students/project-team6.git`
+    - Navigate to the project directory using `cd [directory of the repo]`
