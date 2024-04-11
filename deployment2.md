@@ -37,3 +37,8 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
     - The Wordpress themes files are located in the `[./../wp-content/themes/underscores]` directory.
     - Use PhpStorm to modify theme files.
     - Utilize Git Branching for development.
+
+4. **Testing**
+
+    - Test the theme changes thorougly on your local site by using *work in the browser* method. Ensure that everything looks and functions as expected.
+    - Use PhPStorm's debugging tools and browser developer tools to inspect code and identify issues.
