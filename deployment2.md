@@ -13,7 +13,7 @@ This document outlines the workflow for developing and deploying theme updates f
 
 1. **Start the Local Development Environment**
 
-     - Do a quick overview of [Docker-Compose](https://docs.docker.com/compose) 
+    - Do a quick overview of [Docker-Compose](https://docs.docker.com/compose) 
     - When you are ready to dive in and install docker and docker-compose. 
 Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/) to setup your own local environment. Use the provided `docker-compose.yml` from the repository.
 
@@ -30,4 +30,10 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
     - Ensure you have [Git](https://git-scm.com/downloads) installed.
     - Clone the project repository from Github using
         - `git clone https://github.com/cp3402-students/project-team6.git`
-    - Navigate to the project directory using `cd [directory of the repo]`
+    - Navigate to the project directory using `cd [./../U3Aonline]`.
+
+3. **Theme Development**
+
+    - The Wordpress themes files are located in the `[./../wp-content/themes/underscores]` directory.
+    - Use PhpStorm to modify theme files.
+    - Utilize Git Branching for development.
