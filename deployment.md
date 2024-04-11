@@ -4,8 +4,10 @@
 * CMS - `WordPress`
 * Project Management - `Trello`
 * Communication - `Discord`, `Slack`
-* Local Enviroment and IDE - `Docker`, `PHPStorm`
 * Version Control - `GitHub`
+* Local Enviroment and IDE - `Docker`, `PHPStorm`
+* Staging - `Microsoft Azure - App Service`
+* Production - `Amazon Web Services - Lightsail`
 
 ## CMS - Wordpress
 ## Project Management - Trello
