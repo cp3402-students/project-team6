@@ -14,12 +14,11 @@ This document outlines the workflow for developing and deploying theme updates f
 1. **Start the Local Development Environment**
 
     - Do a quick overview of [Docker-Compose](https://docs.docker.com/compose) 
-    - When you are ready to dive in and install docker and docker-compose. 
-Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/) to setup your own local environment. Use the provided `docker-compose.yml` from the repository.
+    - When you are ready to dive in and install docker and docker-compose, follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/) to set up your own local environment. Use the provided `docker-compose.yml` from the repository.
 
-    - Create Folder for the project and open it to your IDE we used [PhpStom](https://www.jetbrains.com/phpstorm/download/#section=windows)
+    - Create a Folder for the project and open it to your IDE we used [PhpStom](https://www.jetbrains.com/phpstorm/download/#section=windows)
 
-    - Download `docker-compose.yml` from [CP3402/project-team6](https://github.com/cp3402-students/project-team6/blob/main/docker-compose.yml), save it from the project folder.
+    - Download `docker-compose.yml` from [CP3402/project-team6](https://github.com/cp3402-students/project-team6/blob/main/docker-compose.yml), and save it from the project folder.
 
     - Run `docker-compose up -d` to start the development environment with WordPress and database.
 
@@ -40,14 +39,14 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
 
 4. **Testing**
 
-    - Test the theme changes thorougly on your local site by using *work in the browser* method. Ensure that everything looks and functions as expected.
+    - Test the theme changes thoroughly on your local site by using the *work in the browser* method. Ensure that everything looks and functions as expected.
     - Use PhPStorm's debugging tools and browser developer tools to inspect code and identify issues.
 
 ### Version Control using Git
 
 1. **Branching Strategy**
     
-    - We recommend using a Git branching strategy. Before making any changes, create a new branch for the theme updates. This will keep your works separate from the main branch.
+    - We recommend using a Git branching strategy. Before making any changes, create a new branch for the theme updates. This will keep your work separate from the main branch.
     - Create a dedicated branch (e.g., `feature/your_feature_name`) for each feature or bug fix using `git checkout -b feature/your_feature_name`.
     - Develop and test your changes on the feature branch.
 
@@ -55,14 +54,14 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
 
     - Regularly commit the changes to your local branch with meaningful commit messages using `git commit -m "Your descriptive commit message"`.
 
-3. **Pushing to Github**
+3. **Pushing to Gitub**
 
     - Once your testing is complete, push the changes to your feature branch using `git push origin feature/your_feature_name`.
 
 4. **Pull Request**
 
     - Create a pull request on Github to propose your changes for merging into the `main` development branch.
-    - Include clear descriptions of the changes and reference related Trello cards if any.
+    - Include clear descriptions of the changes and reference-related Trello cards if any.
     - Reviewers can provide feedback and suggest modifications before merging.
 
 ### Deployment Process
@@ -74,7 +73,7 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
 
 2. **Deployment Automation (optional)**
 
-    - Consider using a continuous integration/continuous delivery (CI/CD) tool to automate deployments. Github have their own the [Github Actions](https://github.com/features/actions). 
+    - Consider using a continuous integration/continuous delivery (CI/CD) tool to automate deployments. Github has its own [Github Actions](https://github.com/features/actions). 
 
 3. **Deployment Manual**
 
