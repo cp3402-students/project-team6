@@ -66,9 +66,9 @@ This document outlines the workflow for developing and deploying theme updates f
 
 ### Deployment Process
 
-1. **Staging Environment - (Azure Portal)**
+1. **Staging Environment - (AWS LightSail)**
     
-    - We maintain a staging environment hosted on Microsoft Azure App Service. (https://u3aonline.azurewebsites.net/)
+    - We maintain a staging environment hosted on Amazon Web Service - LightSail. ([http://3.27.98.5/](http://3.27.98.5/))
     - Once a pull request is approved, merge the feature branch into a dedicated branch (e.g., staging) for deployment to staging.
 
 2. **Deployment Automation (optional)**
