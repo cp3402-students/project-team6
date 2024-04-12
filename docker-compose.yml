@@ -17,7 +17,7 @@ services:
       - db-data:/var/lib/mysql
     networks:
       - wordpress-network
-
+      
   phpmyadmin:
     depends_on:
       - database

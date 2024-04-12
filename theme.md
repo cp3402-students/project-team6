@@ -26,3 +26,4 @@ It prioritizes ease of use, and clear navigation to support users unfamiliar wit
 1. Upload the `Underscores` folder to your `/wp-content/themes/` directory.
 2. Activate the theme through the 'Themes' menu in WordPress.
 3. Visit  the Customizer to tweak the default settings if needed.
+
