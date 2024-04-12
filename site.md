@@ -21,9 +21,10 @@ __Plugin Details__
 - Add Plugins used here
 
 ### Updating the Site
-__Add a New Page__
+#### Add a New Page 
 Write how to add page here
 
-__Add a New Post__
-Write how to add post here
+#### Add a New Post 
+__GEMS__
+__Courses__
 
