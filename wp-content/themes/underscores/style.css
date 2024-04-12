@@ -80,7 +80,7 @@ html {
  */
 body {
 	margin: 0;
-	background: antiquewhite;
+	background: white;
 }
 
 /**
@@ -407,7 +407,6 @@ select,
 optgroup,
 textarea {
 	color: black;
-	background: antiquewhite;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -476,9 +475,6 @@ big {
 
 /* Elements
 --------------------------------------------- */
-body {
-	background: cornsilk;
-}
 
 hr {
 	background-color: #ccc;
@@ -529,6 +525,7 @@ object {
 
 .site-header {
 	display: grid;
+	background: #22547d;
 	justify-content: center;
 	justify-items: center;
 	align-items: center;
@@ -538,28 +535,28 @@ object {
 
 .site-content-wrapper {
 	display: flex;
-	flex-direction: row; /* Aligns the children (sidebar and main) horizontally */
+	flex-direction: row;
 	justify-items: center;
 }
 
 #primary {
-	flex-grow: 1;
-	padding-right: 250px;
+	flex-grow: .9;
 }
 
 #sticky-sidebar {
-	height: 50vh;
-	width: 250px;
+
+	height: 35vh;
+	width: 300px;
 	padding-left: 20px;
 	position: -webkit-sticky; /* For Safari */
 	position: sticky;
-	overflow-y: auto; /* Scrollable sidebar if content is longer than the screen */
-	top: 10px;
+	top: 32px;
+	bottom: 100px;
 }
 
 #sticky-sidebar .widget button {
-	background-color: rosybrown;
-	color: black;
+	background-color: #22547d;
+	color: white;
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -571,12 +568,13 @@ object {
 }
 
 #sticky-sidebar .widget button:hover {
-	background-color: saddlebrown; /* Button background color on hover */
+	background-color: #62a6de;
 }
 
 
 .site-footer {
-	padding: 40px; /* Footer padding */
+	padding: 40px;
+	background: #22547d;
 }
 
 .footer-widgets {
@@ -590,16 +588,17 @@ object {
 }
 
 .footer-widget-area {
-	padding: 0 20px; /* Spacing between widget areas */
+
+	padding: 0 20px;
 }
 
 .footer-widget-area h2.widget-title {
-	font-weight: bold; /* Widget title styling */
-	margin-bottom: 20px; /* Spacing under widget titles */
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .widget {
-	margin-bottom: 20px; /* Spacing between widgets */
+	margin-bottom: 20px;
 }
 
 
@@ -619,6 +618,14 @@ figure {
 	margin: 1em 0;
 }
 
+.wp-block-table {
+	display: flex;
+	font-family: Bahnschrift;
+	border-collapse: collapse;
+	width: 50%;
+	justify-items: center;
+}
+
 table {
 	margin: 0 0 1.5em;
 	width: 100%;
@@ -631,11 +638,11 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: #b9aa55;
 }
 
 a:visited {
-	color: #800080;
+	color: red;
 }
 
 a:hover,
@@ -757,11 +764,13 @@ textarea {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	font-size: larger;
 }
 
 
 
 .main-navigation li {
+	font-size: larger;
 	font-family: Bahnschrift;
 	display: inline-block;
 	margin-left: 20px;
@@ -769,10 +778,10 @@ textarea {
 }
 
 .main-navigation a {
-	text-decoration: underline;
-	color: #333; /* Change this to match your site's color scheme */
-	font-weight: bold; /* Adjust font weight as needed */
-	font-size: 16px; /* Adjust font size as needed */
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
 }
 
 .main-navigation a:hover, .main-navigation a:focus {
@@ -780,44 +789,7 @@ textarea {
 	color: gray; /* Highlight color on hover */
 }
 
-.main-navigation ul ul {
-	text-decoration: underline;
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
-	position: absolute;
-	top: 100%;
-	left: -999em;
-	z-index: 99999;
-}
 
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
-}
-
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	display: block;
-	left: auto;
-}
-
-.main-navigation ul ul a {
-	width: 200px;
-}
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-	left: auto;
-}
-
-.main-navigation li {
-	position: relative;
-}
-
-.main-navigation a {
-	display: block;
-	text-decoration: none;
-}
 
 /* Small menu. */
 .menu-toggle,
