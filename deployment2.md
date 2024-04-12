@@ -42,3 +42,25 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
 
     - Test the theme changes thorougly on your local site by using *work in the browser* method. Ensure that everything looks and functions as expected.
     - Use PhPStorm's debugging tools and browser developer tools to inspect code and identify issues.
+
+### Version Control using Git
+
+1. **Branching Strategy**
+    
+    - We recommend using a Git branching strategy. Before making any changes, create a new branch for the theme updates. This will keep your works separate from the main branch.
+    - Create a dedicated branch (e.g., `feature/your_feature_name`) for each feature or bug fix using `git checkout -b feature/your_feature_name`.
+    - Develop and test your changes on the feature branch.
+
+2. **Committing Changes**
+
+    - Regularly commit the changes to your local branch with meaningful commit messages using `git commit -m "Your descriptive commit message"`.
+
+3. **Pushing to Github**
+
+    - Once your testing is complete, push the changes to your feature branch using `git push origin feature/your_feature_name`.
+
+4. **Pull Request**
+
+    - Create a pull request on Github to propose your changes for merging into the `main` development branch.
+    - Include clear descriptions of the changes and reference related Trello cards if any.
+    - Reviewers can provide feedback and suggest modifications before merging.
