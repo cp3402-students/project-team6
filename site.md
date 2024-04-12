@@ -29,4 +29,6 @@ However if your new page has a Parent page this page will need to be edited in `
 editing the page, you will need to manually select your desired Parent Page.
 #### Add a New Post
 __GEMS__
+
 __Courses__
+when adding new courses
