@@ -64,3 +64,30 @@ Follow this [Quickstart: Compose and Wordpress tutorial](https://github.com/dock
     - Create a pull request on Github to propose your changes for merging into the `main` development branch.
     - Include clear descriptions of the changes and reference related Trello cards if any.
     - Reviewers can provide feedback and suggest modifications before merging.
+
+### Deployment Process
+
+1. **Staging Environment - (Azure Portal)**
+    
+    - We maintain a staging environment hosted on Microsoft Azure App Service. (https://u3aonline.azurewebsites.net/)
+    - Once a pull request is approved, merge the feature branch into a dedicated branch (e.g., staging) for deployment to staging.
+
+2. **Deployment Automation (optional)**
+
+    - Consider using a continuous integration/continuous delivery (CI/CD) tool to automate deployments. Github have their own the [Github Actions](https://github.com/features/actions). 
+
+3. **Deployment Manual**
+
+    - If not using CI/CD, manually deploy changes to staging by:
+        - Export the theme folder from your local environment.
+        - Uploading and activating the updated theme folder to the staging environment on its Wordpress Admin Dashboard.
+4. **Testing Staging**
+
+    - Thoroughly test all functionalities and visual aspects of your theme changes in the staging environment.
+    - Ensure compatibility with existing plugins and content.
+    - Utilize Trello cards to track testing progress and address any issues.
+
+5. **Productions Deployment (AWS Lightsail)**
+
+    - Once everything is verified in staging, merge the `staging` branch into the `main` branch on Github.
+    - The steps on deploying to our production site will be similar to as deploying to staging (manually or through CI/CD). Keep in mind that the deployment target will be the AWS Lightsail instance. (http://3.27.98.5/)
