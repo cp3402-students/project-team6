@@ -89,4 +89,4 @@ This document outlines the workflow for developing and deploying theme updates f
 5. **Productions Deployment (AWS LightSail)**
 
     - Once everything is verified in staging, merge the `staging` branch into the `main` branch on GitHub.
-    - The steps on deploying to our production site will be like to as deploying to staging (manually or through CI/CD). Keep in mind that the deployment target will be the AWS LightSail instance. (http://3.27.98.5/)
+    - The steps on deploying to our production site will be like to as deploying to staging (manually or through CI/CD). Keep in mind that the deployment target will be the AWS LightSail instance. ([http://3.105.251.55](http://3.105.251.55)](http://3.105.251.55))
