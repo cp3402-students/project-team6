@@ -63,9 +63,8 @@ For any developer continuing the development of the site.
 3. Find the plugin and click on the Install Now button
 4. After installation, click on Activate Plugin link to activate the plugin.
 
-=======
-__Plugin Details__
 - `PDF.js Viewer` - [Wordpress Plugin Link](https://wordpress.org/plugins/pdfjs-viewer-shortcode/)
+- 
 ### Updating the Site
 #### Add a New Page
 To Add a new page while in the dashboard hover to `Pages` and select `Add New Page`
@@ -73,19 +72,6 @@ To Add a new page while in the dashboard hover to `Pages` and select `Add New Pa
 If the new page is a Parent page (eg. Home, Contacts, etc.), the new page will automatically be added to the Navbar menu,
 However if your new page has a Parent page this page will need to be edited in `Page Attribues` in `Settings` while
 editing the page, you will need to manually select your desired Parent Page.
-#### Add a New Post
-__GEMS__
-- Add Plugins used here
-
-### Updating the Site
-
-**Add a New Page**
-Write how to add page here
-
-**Add a New Post**
-=======
-#### Add a New Page 
-Write how to add page here
 
 #### Add a New Post 
 __GEMS__
@@ -97,6 +83,15 @@ __GEMS__
 5. Click Publish to share your post now, or choose Schedule for later.
 
 __Courses__
-=======
-__Courses__
-when adding new courses
+
+1. Add new course list by using a `Pattern` from the `Banner` section
+2. Replace the existing image with an appropiate image
+3. Edit the header and paragraph
+4. Edit the the button to say `Start Here`
+5. Select `Add New Page` for new course page
+6. Add `List`, input a dot point for each lecture/ topic
+7. Make new course page child of `Courses` under `Page Attributes`
+8. Add new pages for each lecture/topic
+9. Add `File`, Select desired pdf
+10. Make each new lecture/topic page child of new course page
+11. Add link each page and add back links
