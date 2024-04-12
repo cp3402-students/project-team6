@@ -1,8 +1,8 @@
 # Theme
+This Documentation includes information which is intended to be used for new developers and the continued development of the U3A Online theme.
 This documentation is intended to assist new developers in continuing the development of the U3A Online theme. 
 The document covers various aspects, including design decisions and best practices for 
 maintaining and extending the theme.
-
 ## Features
 
 __Gems Newsletter__
