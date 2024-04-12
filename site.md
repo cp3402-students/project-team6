@@ -57,9 +57,17 @@ For any developer continuing the development of the site.
 Write how to add page here
 
 **Add a New Post**
+=======
+#### Add a New Page 
+Write how to add page here
+
+#### Add a New Post 
+__GEMS__
 
 1. Log in to your WordPress dashboard `http://3.105.251.55/wp-admin`.
 2. Click Posts then Add New.
 3. Add a title for the post.
 4. Enter the shortcode from 3D Flipbook plugin.
 5. Click Publish to share your post now, or choose Schedule for later.
+
+__Courses__
