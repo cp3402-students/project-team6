@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package u3a
+ * @package underscores
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
