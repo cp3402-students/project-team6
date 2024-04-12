@@ -19,19 +19,10 @@ It prioritizes ease of use, and clear navigation to support users unfamiliar wit
 - `functions.php` - Contains all the theme's functions and hooks.
 - `header.php` and `footer.php` - Code for the universal header and footer.
 
-## Customization Options
-- Color palettes can be adjusted in the WordPress Customizer.
-- Font sizes and family choices are accessible via theme settings.
-
-## Development Decisions
-- Utilizes Bootstrap for grid and responsive features.
-- Emphasis on SEO-friendly structures with appropriate HTML5 semantics.
-
 ## Important Notes
 - Ensure all plugins are updated as older versions may not be compatible with theme code.
-- Future updates will include WooCommerce support.
 
 ## Getting Started
-1. Upload the `oceanview` folder to your `/wp-content/themes/` directory.
+1. Upload the `Underscores` folder to your `/wp-content/themes/` directory.
 2. Activate the theme through the 'Themes' menu in WordPress.
-3. Visit the Customizer to tweak the default settings.
+3. Visit the Customizer to tweak the default settings if needed.
