@@ -142,7 +142,7 @@ MYSQL_ROOT_PASSWORD = database_root_password
 
 1. **Staging Environment - (AWS LightSail)**
 
-   - We maintain a staging environment hosted on Amazon Web Service - LightSail. ([http://3.27.98.5/](http://3.27.98.5/))
+   - We maintain a staging environment hosted on Amazon Web Service - LightSail. (http://3.27.98.5/)
    - Once a pull request is approved, merge the feature branch into a dedicated branch (e.g., staging) for deployment to staging.
 
 2. **Deployment Automation (optional)**
@@ -164,4 +164,4 @@ MYSQL_ROOT_PASSWORD = database_root_password
 5. **Productions Deployment (AWS LightSail)**
 
    - Once everything is verified in staging, merge the `staging` branch into the `main` branch on GitHub.
-   - The steps on deploying to our production site will be like to as deploying to staging (manually or through CI/CD). Keep in mind that the deployment target will be the AWS LightSail instance. ([http://3.105.251.55](http://3.105.251.55)](http://3.105.251.55))
+   - The steps on deploying to our production site will be like to as deploying to staging (manually or through CI/CD). Keep in mind that the deployment target will be the AWS LightSail instance. (http://3.105.251.55)
