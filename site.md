@@ -7,33 +7,18 @@ increase membership signups.
 
 ## Success Evaluation:
 
-Following the initial launch of the site, if there is a 10% increase in users compared to the existing membership within
-=======
-Following the initial launch of the site, if there is a 10% increase in users compared to the existing membership within
-the first 3 months, the site will be considered successful.
-## Target Audience:
-The site is targeted towards individuals aged 55 and above, specifically those around the age of 85 who have an interest
-in learning. This is a national organization for Australia, initially funded by the Australian Government. To cater to
-this target audience, the theme should be easy to navigate, and all fonts should be larger in size for older users.
-## Market Size:
-The population of Australia as of writing this is over 26 million, with 28.7% being over the age of 55. One study showed
-that approximately 34% of Australians over the age of 55 are digitally disengaged, which means we have a potential
-Following the initial launch of the site, if there is a 10% increase in users compared to the existing membership within 
-the first 3 months, the site will be considered successful.
+Following the initial launch of the site, if there is a 10% increase in users compared to the existing membership within the first 3 months, the site will be considered successful.
 
 ## Target Audience:
 
-The site is targeted towards individuals aged 55 and above, specifically those around the age of 85 who have an interest
-in learning. This is a national organization for Australia, initially funded by the Australian Government. To cater to
-this target audience, the theme should be easy to navigate, and all fonts should be larger in size for older users.
+The site is targeted towards individuals aged 55 and above, specifically those around the age of 85 who have an interest in learning. This is a national organization for Australia, initially funded by the Australian Government. To cater to this target audience, the theme should be easy to navigate, and all fonts should be larger in size for older users.
 
 ## Market Size:
 
-The population of Australia as of writing this is over 26 million, with 28.7% being over the age of 55. One study showed
+The population of Australia as of writing this is over 26 million, with 28.7% being over the age of 55. One study showed that approximately 34% of Australians over the age of 55 are digitally disengaged, which means we have a potential.
 
-that approximately 34% of Australians over the age of 55 are digitally disengaged, which means we have a potential
-=======
-market of 2.5 million users over the age of 55.
+Following the initial launch of the site, if there is a 10% increase in users compared to the existing membership within
+the first 3 months, the site will be considered successful.
 
 ## Site Organization and Updating:
 
@@ -64,17 +49,21 @@ For any developer continuing the development of the site.
 4. After installation, click on Activate Plugin link to activate the plugin.
 
 - `PDF.js Viewer` - [Wordpress Plugin Link](https://wordpress.org/plugins/pdfjs-viewer-shortcode/)
-- 
+-
+
 ### Updating the Site
+
 #### Add a New Page
+
 To Add a new page while in the dashboard hover to `Pages` and select `Add New Page`
 
 If the new page is a Parent page (eg. Home, Contacts, etc.), the new page will automatically be added to the Navbar menu,
 However if your new page has a Parent page this page will need to be edited in `Page Attribues` in `Settings` while
 editing the page, you will need to manually select your desired Parent Page.
 
-#### Add a New Post 
-__GEMS__
+#### Add a New Post
+
+**GEMS**
 
 1. Log in to your WordPress dashboard `http://3.105.251.55/wp-admin`.
 2. Click Posts then Add New.
@@ -82,7 +71,7 @@ __GEMS__
 4. Enter the shortcode from 3D Flipbook plugin.
 5. Click Publish to share your post now, or choose Schedule for later.
 
-__Courses__
+**Courses**
 
 1. Add new course list by using a `Pattern` from the `Banner` section
 2. Replace the existing image with an appropiate image
